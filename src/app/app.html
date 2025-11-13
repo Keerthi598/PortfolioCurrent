@@ -1,0 +1,23 @@
+<!--
+    A lot of the code is pretty self explanatory
+    Comments exist for weird/hacky decsions
+-->
+
+<div class="bg-white h-screen w-screen">
+
+    <app-background class="fixed h-full w-full pointer-events-none "></app-background>
+    <app-right-building class="fixed h-full w-full"></app-right-building>
+    <app-cover-building-right class="fixed h-full w-full pointer-events-none "></app-cover-building-right>
+    <app-left-building class="hidden lg:block lg:fixed lg:h-full lg:w-1/2"></app-left-building>
+    <app-balcony-top class="fixed w-full"></app-balcony-top>
+    <app-balcony-bottom class="pointer-events-none fixed bottom-0 w-full"></app-balcony-bottom>
+    <app-mode-switch class="pointer-events-none fixed bottom-0 w-max"></app-mode-switch>
+
+    <app-popup-contact [class.fixed]="displayContact" [class.h-full]="displayContact" [class.w-full]="displayContact"></app-popup-contact>
+    <app-popup-projects [class.fixed]="displayProject" [class.h-full]="displayProject" [class.w-full]="displayProject"></app-popup-projects>
+    <app-popup-about [class.fixed]="displayAboutMe" [class.h-full]="displayAboutMe" [class.w-full]="displayAboutMe"></app-popup-about>
+
+</div>
+
+
+<router-outlet />

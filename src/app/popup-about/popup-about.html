@@ -1,0 +1,348 @@
+<svg
+    [class.pointer-events-none]="!showScreen"
+    [class.opacity-0]="!showScreen"
+    [class.h-0]="!showScreen"
+    [class.none]="!showScreen"
+
+    [class.absolute]="showScreen"
+    [class.w-full]="showScreen"
+    [class.h-full]="showScreen"
+    [class.opacity-100]="showScreen"
+
+    width="4481" height="3207" 
+    preserveAspectRatio="none" 
+    viewBox="0 0 4481 3207" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <rect 
+        class="transition-opacity duration-900 ease-in-out"
+        [attr.opacity]="showBack ? .75 : 0"
+        id="BlurredEdg" opacity="0.75" y="-2" width="4481" height="3209" fill="black"/>
+
+</svg>
+
+<!-- 
+Apple check,
+Cos Safari isn't very dev friendly
+-->
+@if (!isApple) {
+    <div    
+    class="fixed w-full h-full flex items-center justify center pointer-events-none"
+    [class.none]="!showScreen"
+    [class.block]="showScreen"
+    >
+    <svg
+        [class.pointer-events-none]="!showScreen"
+        [class.opacity-0]="!showScreen"
+        [class.h-0]="!showScreen"
+        [class.none]="!showScreen"
+
+        [class.block]="showScreen"
+        [class.w-full]="showScreen"
+        [class.h-[50vh]]="showScreen"
+
+        [class.sm:h-full]="showScreen"
+        [class.lg:h-[85vh]]="showScreen"
+        
+        [class.opacity-100]="showScreen"
+        
+        class="[pointer-events:visiblePainted] my-[10%] sm:m-[10%]"
+
+        width="2914" height="2518" viewBox="0 0 2914 2518" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="PopUpBoutMe">
+            <g id="PopUpScreenBack">
+                <foreignObject 
+                    class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0"
+                    x="-100" y="-100" width="3113" height="2718">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(50px);clip-path:url(#bgblur_0_2096_456_clip_path);height:100%;width:100%">
+                    </div>
+                </foreignObject>
+
+                <rect
+                class="transition-all duration-900 ease-in-out"
+                [attr.opacity]="showBack ? 1 : 0"
+                [attr.transform]="showBack ? 'translate(0,0) scale(1, 1)' : 'translate(0, 895) scale(1, 0.2)'"
+                id="Back" data-figma-bg-blur-radius="100" width="2913" height="2518" fill="black" fill-opacity="0.2"/>
+                
+                <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0">
+                    <g id="BottomRight">
+                        <path id="BottomRightC" d="M2873.4 1709.9H2880.32V1954.83L2860.14 1982.25V2014.66H2853.8V1977.89L2873.4 1951.71V1709.9Z" fill="#38D7D0"/>
+                        <path id="BottomRightB" d="M1841.3 2498.27H2439.23L2454.22 2480.82H2804.79L2865.91 2435.95V1981.62L2871.1 1974.15H2891.28L2895.89 1978.51V2014.03H2890.7V1982.25L2887.82 1978.51H2874.56L2871.1 1984.12V2441.56L2808.25 2488.3H2457.1L2442.11 2507H1848.22L1841.3 2498.27Z" fill="#38D7D0"/>
+                        <path id="BottomRightA" d="M1145.93 2464.62H1834.38L1852.26 2482.69H2431.73L2448.45 2464.62H2629.51L2639.66 2475.22H2451.34L2436.92 2492.04H1845.91L1829.77 2477.09H1145.93V2464.62Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraC" d="M2861.87 1645.71H2868.79V1946.1L2853.8 1964.17V1954.2L2861.87 1944.09V1645.71Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraA" d="M2770.77 2475.22V2468.36H2796.72L2855.53 2429.1V2409.78H2861.87V2434.08L2802.48 2475.22H2770.77Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraB" d="M2821.51 2488.3H2812.86L2871.1 2444.68L2870.52 2451.53L2821.51 2488.3Z" fill="#38D7D0"/>
+                    </g>
+                    <g id="TopRight">
+                        <path id="RightTopA" d="M1539.5 124.531L2418.23 125.145L2449.94 88.3342L2848.37 88.9477L2879.5 122.077V467.485H2870.85V124.531L2845.48 98.1504L2452.82 97.5369L2421.69 134.348H1539.5V124.531Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraC" d="M1608.69 104.899H1622.53V107.353H1610.99V114.715H1620.22V107.353H1622.53V117.169H1610.99H1608.69V104.899Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraB" d="M2467.81 111.034H2495.49V116.188H2472.43V131.648H2490.88V116.188H2495.49V136.802H2472.43H2467.81V111.034Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraA" d="M2837.99 344.169H2861.05V367.728H2857.21V349.077H2841.83V457.055H2857.21V367.728H2861.05V461.963H2841.83H2837.99V344.169Z" fill="#D45AD7"/>
+                        <path id="TopRightB" d="M2859.9 88.9473L2879.5 110.42V114.715L2855.29 88.9473H2859.9Z" fill="#D45AD7"/>
+                    </g>
+                    <g id="BottomLeft">
+                        <path id="BottomLEftExtraB" d="M33.0986 1442.54L33.0989 1431.32L82.686 1431.94V1484.92H33.0989V1474.95L33.0986 1442.54H42.9007V1474.95H75.19V1442.54H33.0986Z" fill="#D45AD7"/>
+                        <path id="BottomLeftAExtra" d="M934.893 2464.62H948.731V2467.11H937.199V2474.59H946.424V2467.11H948.731V2477.09H937.199H934.893V2464.62Z" fill="#D45AD7"/>
+                        <path id="BottomLeftB" d="M68.8477 1501.12H82.6859V2301.96L143.805 2420.37H464.968L497.258 2452.16H677.155V2464.62H487.455L458.049 2436.58H134.579L68.8477 2307.57V1501.12Z" fill="#D45AD7"/>
+                        <path id="BottomLeftA" d="M35.4053 1547.24H49.2435V2348.08L113.822 2473.97H306.981L338.117 2450.91H388.281L417.111 2478.33H879.54L900.874 2464.62H929.704V2477.09H904.91L884.153 2491.42H417.111L383.668 2461.51H342.154L305.252 2489.55H105.75L35.4053 2353.69V1547.24Z" fill="#D45AD7"/>
+                    </g>
+                    <g id="TopLeft">
+                        <path id="TopLeftB" d="M97.4336 460.96L131.453 400.381L130.876 301.478H123.38V281.698H146.444L128.57 285.406V299.006H141.255V285.406H128.57L146.444 281.698V301.478H139.525V405.327L108.389 463.432V731.707H97.4336V460.96Z" fill="#38D7D0"/>
+                        <path id="TopLeftA" d="M1247.74 82.0361V98.1074L1239.34 107.998V130.869H1107.05L1036.13 91.9258H96.8574L57.6494 135.814V804.647H49V132.105L96.8574 83.2725H1042.47L1107.05 122.834L1233.33 124.069V107.998L1222.95 98.1074V82.0361L1233.33 74H1239.67L1247.74 82.0361ZM1233.33 76.4727L1225.83 82.6543V98.1074L1233.9 104.907H1238.52L1244.86 98.1074V82.6543L1239.09 76.4727H1233.33Z" fill="#38D7D0"/>
+                    </g>
+                </g>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="PopUpTitle">
+                <foreignObject x="145" y="225" width="2666" height="2176"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_1_2096_456_clip_path);height:100%;width:100%"></div></foreignObject><rect id="PopUpTitleBack" data-figma-bg-blur-radius="40" x="185" y="265" width="2586" height="2096" rx="45" fill="#3A3A3A" fill-opacity="0.2"/>
+                <path id="About Me" d="M1154.49 488V411.2C1154.49 408.384 1155.17 405.824 1156.53 403.52C1157.9 401.131 1159.73 399.253 1162.04 397.888C1164.43 396.523 1167.03 395.84 1169.85 395.84H1231.29C1234.1 395.84 1236.66 396.523 1238.97 397.888C1241.36 399.253 1243.23 401.131 1244.6 403.52C1245.96 405.824 1246.65 408.384 1246.65 411.2V488H1236.28V454.336H1164.85V488H1154.49ZM1164.85 443.968H1236.28V411.2C1236.28 409.835 1235.77 408.683 1234.74 407.744C1233.8 406.72 1232.65 406.208 1231.29 406.208H1169.85C1168.48 406.208 1167.29 406.72 1166.26 407.744C1165.32 408.683 1164.85 409.835 1164.85 411.2V443.968ZM1260.97 488V389.44H1271.47V413.76H1321.13C1323.95 413.76 1326.51 414.485 1328.81 415.936C1331.2 417.301 1333.08 419.179 1334.45 421.568C1335.9 423.872 1336.62 426.432 1336.62 429.248V472.512C1336.62 475.328 1335.9 477.931 1334.45 480.32C1333.08 482.624 1331.2 484.501 1328.81 485.952C1326.51 487.317 1323.95 488 1321.13 488H1260.97ZM1276.59 477.504H1321.13C1322.5 477.504 1323.65 477.035 1324.59 476.096C1325.61 475.072 1326.13 473.877 1326.13 472.512V429.248C1326.13 427.883 1325.61 426.731 1324.59 425.792C1323.65 424.768 1322.5 424.256 1321.13 424.256H1276.59C1275.23 424.256 1274.03 424.768 1273.01 425.792C1271.98 426.731 1271.47 427.883 1271.47 429.248V472.512C1271.47 473.877 1271.98 475.072 1273.01 476.096C1274.03 477.035 1275.23 477.504 1276.59 477.504ZM1361.45 488C1358.64 488 1356.03 487.317 1353.65 485.952C1351.34 484.501 1349.46 482.624 1348.01 480.32C1346.65 477.931 1345.97 475.328 1345.97 472.512V429.248C1345.97 426.432 1346.65 423.872 1348.01 421.568C1349.46 419.179 1351.34 417.301 1353.65 415.936C1356.03 414.485 1358.64 413.76 1361.45 413.76H1406C1408.9 413.76 1411.5 414.485 1413.81 415.936C1416.19 417.301 1418.07 419.179 1419.44 421.568C1420.89 423.872 1421.61 426.432 1421.61 429.248V472.512C1421.61 475.328 1420.89 477.931 1419.44 480.32C1418.07 482.624 1416.19 484.501 1413.81 485.952C1411.5 487.317 1408.9 488 1406 488H1361.45ZM1361.45 477.504H1406C1407.36 477.504 1408.51 477.035 1409.45 476.096C1410.48 475.072 1410.99 473.877 1410.99 472.512V429.248C1410.99 427.883 1410.48 426.731 1409.45 425.792C1408.51 424.768 1407.36 424.256 1406 424.256H1361.45C1360.09 424.256 1358.89 424.768 1357.87 425.792C1356.93 426.731 1356.46 427.883 1356.46 429.248V472.512C1356.46 473.877 1356.93 475.072 1357.87 476.096C1358.89 477.035 1360.09 477.504 1361.45 477.504ZM1447.33 488C1444.52 488 1441.92 487.317 1439.53 485.952C1437.22 484.501 1435.35 482.624 1433.89 480.32C1432.53 477.931 1431.85 475.328 1431.85 472.512V413.76H1442.34V472.512C1442.34 473.877 1442.81 475.072 1443.75 476.096C1444.77 477.035 1445.97 477.504 1447.33 477.504H1491.88C1493.24 477.504 1494.44 477.035 1495.46 476.096C1496.49 475.072 1497 473.877 1497 472.512V413.76H1507.49V472.512C1507.49 475.328 1506.77 477.931 1505.32 480.32C1503.95 482.624 1502.08 484.501 1499.69 485.952C1497.38 487.317 1494.78 488 1491.88 488H1447.33ZM1534.46 488C1531.56 488 1528.91 487.317 1526.52 485.952C1524.22 484.501 1522.38 482.624 1521.02 480.32C1519.65 477.931 1518.97 475.328 1518.97 472.512V389.44H1529.47V413.76H1561.6V424.256H1529.47V472.512C1529.47 473.877 1529.94 475.072 1530.88 476.096C1531.9 477.035 1533.09 477.504 1534.46 477.504H1561.6V488H1534.46ZM1606.73 488V395.84H1620.94L1659.21 441.408L1697.48 395.84H1711.69V488H1701.32V407.616L1659.21 457.664L1617.1 407.616V488H1606.73ZM1740.33 488C1737.51 488 1734.91 487.317 1732.52 485.952C1730.22 484.501 1728.34 482.624 1726.89 480.32C1725.52 477.931 1724.84 475.328 1724.84 472.512V429.248C1724.84 426.432 1725.52 423.872 1726.89 421.568C1728.34 419.179 1730.22 417.301 1732.52 415.936C1734.91 414.485 1737.51 413.76 1740.33 413.76H1784.87C1787.77 413.76 1790.38 414.485 1792.68 415.936C1795.07 417.301 1796.95 419.179 1798.31 421.568C1799.76 423.872 1800.49 426.432 1800.49 429.248V456.128H1735.34V472.512C1735.34 473.877 1735.81 475.072 1736.74 476.096C1737.77 477.035 1738.96 477.504 1740.33 477.504H1800.49V488H1740.33ZM1735.34 445.632H1789.86V429.248C1789.86 427.883 1789.35 426.731 1788.33 425.792C1787.39 424.768 1786.24 424.256 1784.87 424.256H1740.33C1738.96 424.256 1737.77 424.768 1736.74 425.792C1735.81 426.731 1735.34 427.883 1735.34 429.248V445.632Z" fill="white"/>
+            </g>
+
+            <g  class="group cursor-pointer transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                (click)="closeABouMe()" 
+                id="ExitButton">
+                <rect class="group-hover:fill-[#D45AD7] duration-350" id="ExitBack" x="2535" y="369" width="149" height="119" fill="#202020"/>
+                <path class="group-hover:opacity-0 duration-350" id="ExitBorder" d="M2535 369H2540V483.5H2679.5V373H2540V369H2684V488H2535V369Z" fill="#D45AD7"/>
+                <path class="group-hover:fill-[#202020] duration-350" id="XPart" d="M2561.5 379.5H2570L2604.5 415H2617L2647 379.5H2657.5L2657 386.5L2624 422V432.5L2657 471.5V477.5H2647L2617 438.5H2604.5L2570 477.5H2561.5V471.5L2598.5 432.5V422L2561.5 386.5V379.5Z" fill="#D45AD7"/>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="BoutMeContent">
+                <foreignObject x="145" y="601" width="2666" height="1800">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_2_2096_456_clip_path);height:100%;width:100%">                        
+                    </div>
+                </foreignObject>
+                
+                <path id="ContentBack" data-figma-bg-blur-radius="40" d="M185 676C185 656.67 200.67 641 220 641H2736C2755.33 641 2771 656.67 2771 676V2326C2771 2345.33 2755.33 2361 2736 2361H220C200.67 2361 185 2345.33 185 2326V676Z" fill="#525252" fill-opacity="0.2"/>
+                
+                <foreignObject class="" x="200" y="700" width="2586" height="1474">
+                    <div xmlns="http://www.w3.org/1999/xhtml" class="scroll-smooth overflow-y-scroll p-16 h-full w-full font-iter text-8xl text-white">
+                        <div class="h-max font-iter text-8xl text-white">
+                            Hi there!!! I know, different font. But guess what? 
+                            <br>
+                            it&#39;s readable (^.^)
+                            <br>
+                            Welcome to my new website!
+                            <br><br>
+                            I&#39;m a Software Dev at KPIT Technologies. I work on embedded stuff in cars. Is it fun?.... Yes .... when the manufacturer&#39;s documentation doesn&#39;t fight back (^.^)
+                            <br><br>
+                            Although I work mostly on lower-level code, I&#39;m a bit of a generalist off the clock. I still tinker with my Raspberry Pi, but as you might&#39;ve noticed, I also design and build websites. I&#39;ve even spent time in cloud(I know, ambiguous) and Android development.
+                            <br><br>
+                            What am I best at? Check back in a year, I&#39;ll probably have a new favorite by then.
+                            <br><br>
+                            Just kidding (maybe). 
+                            <br>
+                            I graduated not too long ago (Spring '25), but so far, I&#39;ve really enjoyed working with low-level systems and backend + cloud stuff. Those are the areas I plan to keep diving deeper into.
+                            <br><br>
+                            If you think any of that lines up with what you&#39;re looking for, feel free to reach out. I&#39;m always down to chat about code, ideas, or simply vent about it.
+                        </div>
+                    </div>
+                </foreignObject>
+            </g>
+
+        </g>
+        <defs>
+            <clipPath id="bgblur_0_2096_456_clip_path" transform="translate(100 100)"><rect width="2913" height="2518"/>
+            </clipPath><clipPath id="bgblur_1_2096_456_clip_path" transform="translate(-145 -225)"><rect x="185" y="265" width="2586" height="2096" rx="45"/>
+            </clipPath><clipPath id="bgblur_2_2096_456_clip_path" transform="translate(-145 -601)"><path d="M185 676C185 656.67 200.67 641 220 641H2736C2755.33 641 2771 656.67 2771 676V2326C2771 2345.33 2755.33 2361 2736 2361H220C200.67 2361 185 2345.33 185 2326V676Z"/>
+            </clipPath>
+        </defs> 
+    </svg>
+</div>
+
+}
+
+@else {
+    <div    
+    class="fixed w-full h-full flex items-center justify center pointer-events-none"
+    [class.none]="!showScreen"
+    [class.block]="showScreen"
+    >
+        <svg
+        [class.pointer-events-none]="!showScreen"
+        [class.opacity-0]="!showScreen"
+        [class.h-0]="!showScreen"
+        [class.none]="!showScreen"
+
+        [class.block]="showScreen"
+        [class.w-full]="showScreen"
+        [class.h-[50vh]]="showScreen"
+        [class.sm:h-full]="showScreen"
+        [class.lg:h-[85vh]]="showScreen"
+        [class.opacity-100]="showScreen"
+        
+        class="[pointer-events:visiblePainted] my-[10%] sm:m-[10%]"
+
+        width="2914" height="2518" viewBox="0 0 2914 2518" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="PopUpBoutMe">
+                <g id="PopUpScreenBack">
+                    <rect
+                    class="transition-all duration-900 ease-in-out"
+                    [attr.opacity]="showBack ? 1 : 0"
+                    [attr.transform]="showBack ? 'translate(0,0) scale(1, 1)' : 'translate(0, 895) scale(1, 0.2)'"
+                    id="Back" data-figma-bg-blur-radius="100" width="2913" height="2518" fill="black" fill-opacity="0.2"/>
+                
+                    <g  class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0">
+                        <g id="BottomRight">
+                            <path id="BottomRightC" d="M2873.4 1709.9H2880.32V1954.83L2860.14 1982.25V2014.66H2853.8V1977.89L2873.4 1951.71V1709.9Z" fill="#38D7D0"/>
+                            <path id="BottomRightB" d="M1841.3 2498.27H2439.23L2454.22 2480.82H2804.79L2865.91 2435.95V1981.62L2871.1 1974.15H2891.28L2895.89 1978.51V2014.03H2890.7V1982.25L2887.82 1978.51H2874.56L2871.1 1984.12V2441.56L2808.25 2488.3H2457.1L2442.11 2507H1848.22L1841.3 2498.27Z" fill="#38D7D0"/>
+                            <path id="BottomRightA" d="M1145.93 2464.62H1834.38L1852.26 2482.69H2431.73L2448.45 2464.62H2629.51L2639.66 2475.22H2451.34L2436.92 2492.04H1845.91L1829.77 2477.09H1145.93V2464.62Z" fill="#38D7D0"/>
+                            <path id="BottomRightExtraC" d="M2861.87 1645.71H2868.79V1946.1L2853.8 1964.17V1954.2L2861.87 1944.09V1645.71Z" fill="#38D7D0"/>
+                            <path id="BottomRightExtraA" d="M2770.77 2475.22V2468.36H2796.72L2855.53 2429.1V2409.78H2861.87V2434.08L2802.48 2475.22H2770.77Z" fill="#38D7D0"/>
+                            <path id="BottomRightExtraB" d="M2821.51 2488.3H2812.86L2871.1 2444.68L2870.52 2451.53L2821.51 2488.3Z" fill="#38D7D0"/>
+                        </g>
+                        <g id="TopRight">
+                            <path id="RightTopA" d="M1539.5 124.531L2418.23 125.145L2449.94 88.3342L2848.37 88.9477L2879.5 122.077V467.485H2870.85V124.531L2845.48 98.1504L2452.82 97.5369L2421.69 134.348H1539.5V124.531Z" fill="#D45AD7"/>
+                            <path id="TopRightExtraC" d="M1608.69 104.899H1622.53V107.353H1610.99V114.715H1620.22V107.353H1622.53V117.169H1610.99H1608.69V104.899Z" fill="#D45AD7"/>
+                            <path id="TopRightExtraB" d="M2467.81 111.034H2495.49V116.188H2472.43V131.648H2490.88V116.188H2495.49V136.802H2472.43H2467.81V111.034Z" fill="#D45AD7"/>
+                            <path id="TopRightExtraA" d="M2837.99 344.169H2861.05V367.728H2857.21V349.077H2841.83V457.055H2857.21V367.728H2861.05V461.963H2841.83H2837.99V344.169Z" fill="#D45AD7"/>
+                            <path id="TopRightB" d="M2859.9 88.9473L2879.5 110.42V114.715L2855.29 88.9473H2859.9Z" fill="#D45AD7"/>
+                        </g>
+                        <g id="BottomLeft">
+                            <path id="BottomLEftExtraB" d="M33.0986 1442.54L33.0989 1431.32L82.686 1431.94V1484.92H33.0989V1474.95L33.0986 1442.54H42.9007V1474.95H75.19V1442.54H33.0986Z" fill="#D45AD7"/>
+                            <path id="BottomLeftAExtra" d="M934.893 2464.62H948.731V2467.11H937.199V2474.59H946.424V2467.11H948.731V2477.09H937.199H934.893V2464.62Z" fill="#D45AD7"/>
+                            <path id="BottomLeftB" d="M68.8477 1501.12H82.6859V2301.96L143.805 2420.37H464.968L497.258 2452.16H677.155V2464.62H487.455L458.049 2436.58H134.579L68.8477 2307.57V1501.12Z" fill="#D45AD7"/>
+                            <path id="BottomLeftA" d="M35.4053 1547.24H49.2435V2348.08L113.822 2473.97H306.981L338.117 2450.91H388.281L417.111 2478.33H879.54L900.874 2464.62H929.704V2477.09H904.91L884.153 2491.42H417.111L383.668 2461.51H342.154L305.252 2489.55H105.75L35.4053 2353.69V1547.24Z" fill="#D45AD7"/>
+                        </g>
+                        <g id="TopLeft">
+                            <path id="TopLeftB" d="M97.4336 460.96L131.453 400.381L130.876 301.478H123.38V281.698H146.444L128.57 285.406V299.006H141.255V285.406H128.57L146.444 281.698V301.478H139.525V405.327L108.389 463.432V731.707H97.4336V460.96Z" fill="#38D7D0"/>
+                            <path id="TopLeftA" d="M1247.74 82.0361V98.1074L1239.34 107.998V130.869H1107.05L1036.13 91.9258H96.8574L57.6494 135.814V804.647H49V132.105L96.8574 83.2725H1042.47L1107.05 122.834L1233.33 124.069V107.998L1222.95 98.1074V82.0361L1233.33 74H1239.67L1247.74 82.0361ZM1233.33 76.4727L1225.83 82.6543V98.1074L1233.9 104.907H1238.52L1244.86 98.1074V82.6543L1239.09 76.4727H1233.33Z" fill="#38D7D0"/>
+                        </g>
+                    </g>
+                </g>
+
+                <g  class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0"
+                    id="PopUpTitle">
+                    <path id="About Me" d="M1154.49 488V411.2C1154.49 408.384 1155.17 405.824 1156.53 403.52C1157.9 401.131 1159.73 399.253 1162.04 397.888C1164.43 396.523 1167.03 395.84 1169.85 395.84H1231.29C1234.1 395.84 1236.66 396.523 1238.97 397.888C1241.36 399.253 1243.23 401.131 1244.6 403.52C1245.96 405.824 1246.65 408.384 1246.65 411.2V488H1236.28V454.336H1164.85V488H1154.49ZM1164.85 443.968H1236.28V411.2C1236.28 409.835 1235.77 408.683 1234.74 407.744C1233.8 406.72 1232.65 406.208 1231.29 406.208H1169.85C1168.48 406.208 1167.29 406.72 1166.26 407.744C1165.32 408.683 1164.85 409.835 1164.85 411.2V443.968ZM1260.97 488V389.44H1271.47V413.76H1321.13C1323.95 413.76 1326.51 414.485 1328.81 415.936C1331.2 417.301 1333.08 419.179 1334.45 421.568C1335.9 423.872 1336.62 426.432 1336.62 429.248V472.512C1336.62 475.328 1335.9 477.931 1334.45 480.32C1333.08 482.624 1331.2 484.501 1328.81 485.952C1326.51 487.317 1323.95 488 1321.13 488H1260.97ZM1276.59 477.504H1321.13C1322.5 477.504 1323.65 477.035 1324.59 476.096C1325.61 475.072 1326.13 473.877 1326.13 472.512V429.248C1326.13 427.883 1325.61 426.731 1324.59 425.792C1323.65 424.768 1322.5 424.256 1321.13 424.256H1276.59C1275.23 424.256 1274.03 424.768 1273.01 425.792C1271.98 426.731 1271.47 427.883 1271.47 429.248V472.512C1271.47 473.877 1271.98 475.072 1273.01 476.096C1274.03 477.035 1275.23 477.504 1276.59 477.504ZM1361.45 488C1358.64 488 1356.03 487.317 1353.65 485.952C1351.34 484.501 1349.46 482.624 1348.01 480.32C1346.65 477.931 1345.97 475.328 1345.97 472.512V429.248C1345.97 426.432 1346.65 423.872 1348.01 421.568C1349.46 419.179 1351.34 417.301 1353.65 415.936C1356.03 414.485 1358.64 413.76 1361.45 413.76H1406C1408.9 413.76 1411.5 414.485 1413.81 415.936C1416.19 417.301 1418.07 419.179 1419.44 421.568C1420.89 423.872 1421.61 426.432 1421.61 429.248V472.512C1421.61 475.328 1420.89 477.931 1419.44 480.32C1418.07 482.624 1416.19 484.501 1413.81 485.952C1411.5 487.317 1408.9 488 1406 488H1361.45ZM1361.45 477.504H1406C1407.36 477.504 1408.51 477.035 1409.45 476.096C1410.48 475.072 1410.99 473.877 1410.99 472.512V429.248C1410.99 427.883 1410.48 426.731 1409.45 425.792C1408.51 424.768 1407.36 424.256 1406 424.256H1361.45C1360.09 424.256 1358.89 424.768 1357.87 425.792C1356.93 426.731 1356.46 427.883 1356.46 429.248V472.512C1356.46 473.877 1356.93 475.072 1357.87 476.096C1358.89 477.035 1360.09 477.504 1361.45 477.504ZM1447.33 488C1444.52 488 1441.92 487.317 1439.53 485.952C1437.22 484.501 1435.35 482.624 1433.89 480.32C1432.53 477.931 1431.85 475.328 1431.85 472.512V413.76H1442.34V472.512C1442.34 473.877 1442.81 475.072 1443.75 476.096C1444.77 477.035 1445.97 477.504 1447.33 477.504H1491.88C1493.24 477.504 1494.44 477.035 1495.46 476.096C1496.49 475.072 1497 473.877 1497 472.512V413.76H1507.49V472.512C1507.49 475.328 1506.77 477.931 1505.32 480.32C1503.95 482.624 1502.08 484.501 1499.69 485.952C1497.38 487.317 1494.78 488 1491.88 488H1447.33ZM1534.46 488C1531.56 488 1528.91 487.317 1526.52 485.952C1524.22 484.501 1522.38 482.624 1521.02 480.32C1519.65 477.931 1518.97 475.328 1518.97 472.512V389.44H1529.47V413.76H1561.6V424.256H1529.47V472.512C1529.47 473.877 1529.94 475.072 1530.88 476.096C1531.9 477.035 1533.09 477.504 1534.46 477.504H1561.6V488H1534.46ZM1606.73 488V395.84H1620.94L1659.21 441.408L1697.48 395.84H1711.69V488H1701.32V407.616L1659.21 457.664L1617.1 407.616V488H1606.73ZM1740.33 488C1737.51 488 1734.91 487.317 1732.52 485.952C1730.22 484.501 1728.34 482.624 1726.89 480.32C1725.52 477.931 1724.84 475.328 1724.84 472.512V429.248C1724.84 426.432 1725.52 423.872 1726.89 421.568C1728.34 419.179 1730.22 417.301 1732.52 415.936C1734.91 414.485 1737.51 413.76 1740.33 413.76H1784.87C1787.77 413.76 1790.38 414.485 1792.68 415.936C1795.07 417.301 1796.95 419.179 1798.31 421.568C1799.76 423.872 1800.49 426.432 1800.49 429.248V456.128H1735.34V472.512C1735.34 473.877 1735.81 475.072 1736.74 476.096C1737.77 477.035 1738.96 477.504 1740.33 477.504H1800.49V488H1740.33ZM1735.34 445.632H1789.86V429.248C1789.86 427.883 1789.35 426.731 1788.33 425.792C1787.39 424.768 1786.24 424.256 1784.87 424.256H1740.33C1738.96 424.256 1737.77 424.768 1736.74 425.792C1735.81 426.731 1735.34 427.883 1735.34 429.248V445.632Z" fill="white"/>
+                </g>
+
+                <g  class="group cursor-pointer transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0"
+                    (click)="closeABouMe()" 
+                    id="ExitButton">
+                    <rect class="group-hover:fill-[#D45AD7] duration-350" id="ExitBack" x="2535" y="369" width="149" height="119" fill="#202020"/>
+                    <path class="group-hover:opacity-0 duration-350" id="ExitBorder" d="M2535 369H2540V483.5H2679.5V373H2540V369H2684V488H2535V369Z" fill="#D45AD7"/>
+                    <path class="group-hover:fill-[#202020] duration-350" id="XPart" d="M2561.5 379.5H2570L2604.5 415H2617L2647 379.5H2657.5L2657 386.5L2624 422V432.5L2657 471.5V477.5H2647L2617 438.5H2604.5L2570 477.5H2561.5V471.5L2598.5 432.5V422L2561.5 386.5V379.5Z" fill="#D45AD7"/>
+                </g>
+
+                <g  class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0"
+                    id="BoutMeContent">
+                
+                    <path id="ContentBack" data-figma-bg-blur-radius="40" d="M185 676C185 656.67 200.67 641 220 641H2736C2755.33 641 2771 656.67 2771 676V2326C2771 2345.33 2755.33 2361 2736 2361H220C200.67 2361 185 2345.33 185 2326V676Z" fill="#525252" fill-opacity="0.2"/>
+
+                    @if (!isMac) {
+                        <foreignObject class="" x="200" y="700" width="2586" height="1474">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="scroll-smooth overflow-y-scroll p-16 h-full w-full font-iter text-8xl text-white">
+                                <div class="h-max font-iter text-8xl text-white">
+                                    Hi there!!! I know, different font. But guess what? 
+                                    <br>
+                                    it&#39;s readable (^.^)
+                                    <br>
+                                    Welcome to my new website!
+                                    <br><br>
+                                    I&#39;m a Software Dev at KPIT Technologies. I work on embedded stuff in cars. Is it fun?.... Yes .... when the manufacturer&#39;s documentation doesn&#39;t fight back (^.^)
+                                    <br><br>
+                                    Although I work mostly on lower-level code, I&#39;m a bit of a generalist off the clock. I still tinker with my Raspberry Pi, but as you might&#39;ve noticed, I also design and build websites. I&#39;ve even spent time in cloud(I know, ambiguous) and Android development.
+                                    <br><br>
+                                    What am I best at? Check back in a year, I&#39;ll probably have a new favorite by then.
+                                    <br><br>
+                                    Just kidding (maybe). 
+                                    <br>
+                                    I graduated not too long ago (Spring '25), but so far, I&#39;ve really enjoyed working with low-level systems and backend + cloud stuff. Those are the areas I plan to keep diving deeper into.
+                                    <br><br>
+                                    If you think any of that lines up with what you&#39;re looking for, feel free to reach out. I&#39;m always down to chat about code, ideas, or simply vent about it.
+                                </div>
+                            </div>
+                        </foreignObject>
+                    }
+                </g>
+            </g>
+
+            <defs>
+                <clipPath id="bgblur_0_2096_456_clip_path" transform="translate(100 100)"><rect width="2913" height="2518"/>
+                </clipPath><clipPath id="bgblur_1_2096_456_clip_path" transform="translate(-145 -225)"><rect x="185" y="265" width="2586" height="2096" rx="45"/>
+                </clipPath><clipPath id="bgblur_2_2096_456_clip_path" transform="translate(-145 -601)"><path d="M185 676C185 656.67 200.67 641 220 641H2736C2755.33 641 2771 656.67 2771 676V2326C2771 2345.33 2755.33 2361 2736 2361H220C200.67 2361 185 2345.33 185 2326V676Z"/>
+                </clipPath>
+            </defs> 
+        </svg>
+    </div>
+
+
+    <!--
+    Yep,
+    Extra check for mac again
+    Mac OS works different from iOS
+    You also get something more in your about me section you're on a mac broswer (^.^)
+    I had to rent a Mac server to test this
+    -->
+    @if (isMac) {
+        <div id="Bitch"   
+            class="fixed w-full flex items-center justify-center 
+            sm:top-2/5 lg:top-3/20
+            sm:h-[40vh] lg:h-[70vh] 
+            transition-all duration-1200 ease-in-out
+            pointer-events-none"
+
+            [class.none]="!showScreen"
+            [class.block]="showScreen"
+            [class.opacity-0]="!showScreen"
+            [class.h-0]="!showScreen"
+        >
+            <div
+                class="h-full w-full aspect-6/5 relative" [class.pointer-events-none]="!showScreen">
+
+                <div id="actContent" class="absolute inset-0 mb-10 lg:mt-40 /*sm:mx-10 */ mx-auto
+                        sm:w-[60vw] lg:w-[720px]
+                        text-white
+                        transition-all duration-900 ease-in-out"
+                        [class.pointer-events-none]="!showScreen"
+                        [class.opacity-0]="!showContent">
+                    <div 
+                        class="h-full w-full overflow-y-scroll scroll-smooth 
+                            font-iter text-l sm:text-2xl"
+                        [class.pointer-events-none]="!showScreen"
+                        [class.pointer-events-auto]="showScreen"
+
+                    >
+                        <p class="h-max">
+                            Hi there!!! I know, different font. But guess what? 
+                            <br>
+                            it&#39;s readable (^.^)
+                            <br>
+                            Welcome to my new website!
+                            <br><br>
+                            I&#39;m a Software Dev at KPIT Technologies. I work on embedded stuff in cars. Is it fun?.... Yes .... when the manufacturer&#39;s documentation doesn&#39;t fight back (^.^)
+                            <br><br>
+                            Although I work mostly on lower-level code, I&#39;m a bit of a generalist off the clock. I still tinker with my Raspberry Pi, but as you might&#39;ve noticed, I also design and build websites. I&#39;ve even spent time in cloud(I know, ambiguous) and Android development.
+                            <br><br>
+                            What am I best at? Check back in a year, I&#39;ll probably have a new favorite by then.
+                            <br><br>
+                            Just kidding (maybe). 
+                            <br>
+                            I graduated not too long ago (Spring '25), but so far, I&#39;ve really enjoyed working with low-level systems and backend + cloud stuff. Those are the areas I plan to keep diving deeper into.
+                            <br><br>
+                            If you think any of that lines up with what you&#39;re looking for, feel free to reach out. I&#39;m always down to chat about code, ideas, or simply vent about it.
+                            <br><br>
+                            Btw, if you're wondering why some screen's text centering is a bit off, congrats!!! You're on a Mac using Safari. 
+                            <br>
+                            Turns out, Safari's mac webkit doesn't like certain stuff because apple... security... and stuff... like annoying devs..., so I did the best I could keeping my sanity without owning a macbook (^.^)
+                            <br>
+                            Should be smoother on any other browser, an iphone (tested on my personal iPhone), or any non-apple device. 
+                            <br>
+                            Honestly, just use chrome, I love and swear by firefox but you could use anything better than Safari
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }    
+}

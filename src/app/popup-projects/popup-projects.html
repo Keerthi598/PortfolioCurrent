@@ -1,0 +1,667 @@
+<svg
+    [class.pointer-events-none]="!showScreen"
+    [class.opacity-0]="!showScreen"
+    [class.h-0]="!showScreen"
+    [class.none]="!showScreen"
+
+    [class.absolute]="showScreen"
+    [class.w-full]="showScreen"
+    [class.h-full]="showScreen"
+    [class.opacity-100]="showScreen"
+
+    width="4481" height="3207" 
+    preserveAspectRatio="none" 
+    viewBox="0 0 4481 3207" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <rect 
+        class="transition-opacity duration-900 ease-in-out"
+        [attr.opacity]="showBack ? .75 : 0"
+        id="BlurredEdg" opacity="0.75" y="-2" width="4481" height="3209" fill="black"/>
+
+</svg>
+
+
+<!-- 
+Apple check,
+Cos Safari isn't very dev friendly
+-->
+@if (!isApple) {
+<div    
+    class="fixed w-full h-full flex items-center justify center pointer-events-none"
+    [class.none]="!showScreen"
+    [class.block]="showScreen"
+    >
+    <svg
+        [class.pointer-events-none]="!showScreen"
+        [class.opacity-0]="!showScreen"
+        [class.h-0]="!showScreen"
+        [class.none]="!showScreen"
+
+        [class.block]="showScreen"
+        [class.w-full]="showScreen"
+        [class.h-[50vh]]="showScreen"
+
+        [class.sm:h-full]="showScreen"
+        [class.lg:h-[85vh]]="showScreen"
+        
+        [class.opacity-100]="showScreen"
+        
+        class="[pointer-events:visiblePainted] my-[10%] sm:m-[10%]"
+        width="2951" height="2518" viewBox="0 0 2951 2518" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="PopUpProjects">
+            <g id="PopUpScreenBack">
+                <foreignObject 
+                    class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0"    
+                    x="-100" y="-100" width="3113" height="2718">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(50px);clip-path:url(#bgblur_0_2138_72_clip_path);height:100%;width:100%">                        
+                    </div>
+                </foreignObject>
+                
+                <rect 
+                class="transition-all duration-900 ease-in-out"
+                [attr.opacity]="showBack ? 1 : 0"
+                [attr.transform]="showBack ? 'translate(0,0) scale(1, 1)' : 'translate(0, 895) scale(1, 0.2)'"
+                id="Back" data-figma-bg-blur-radius="100" width="2913" height="2518" fill="black" fill-opacity="0.2"/>
+                
+                <g  class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0">>
+                    <g id="BottomRight">
+                        <path id="BottomRightC" d="M2873.4 1709.9H2880.32V1954.83L2860.14 1982.25V2014.66H2853.8V1977.89L2873.4 1951.71V1709.9Z" fill="#38D7D0"/>
+                        <path id="BottomRightB" d="M1841.3 2498.27H2439.23L2454.22 2480.82H2804.79L2865.91 2435.95V1981.62L2871.1 1974.15H2891.28L2895.89 1978.51V2014.03H2890.7V1982.25L2887.82 1978.51H2874.56L2871.1 1984.12V2441.56L2808.25 2488.3H2457.1L2442.11 2507H1848.22L1841.3 2498.27Z" fill="#38D7D0"/>
+                        <path id="BottomRightA" d="M1145.93 2464.62H1834.38L1852.26 2482.69H2431.73L2448.45 2464.62H2629.51L2639.66 2475.22H2451.34L2436.92 2492.04H1845.91L1829.77 2477.09H1145.93V2464.62Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraC" d="M2861.87 1645.71H2868.79V1946.1L2853.8 1964.17V1954.2L2861.87 1944.09V1645.71Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraA" d="M2770.77 2475.22V2468.36H2796.72L2855.53 2429.1V2409.78H2861.87V2434.08L2802.48 2475.22H2770.77Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraB" d="M2821.51 2488.3H2812.86L2871.1 2444.68L2870.52 2451.53L2821.51 2488.3Z" fill="#38D7D0"/>
+                    </g>
+
+                    <g id="TopRight">
+                        <path id="RightTopA" d="M1539.5 124.531L2418.23 125.145L2449.94 88.3342L2848.37 88.9477L2879.5 122.077V467.485H2870.85V124.531L2845.48 98.1504L2452.82 97.5369L2421.69 134.348H1539.5V124.531Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraC" d="M1608.69 104.899H1622.53V107.353H1610.99V114.715H1620.22V107.353H1622.53V117.169H1610.99H1608.69V104.899Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraB" d="M2467.81 111.034H2495.49V116.188H2472.43V131.648H2490.88V116.188H2495.49V136.802H2472.43H2467.81V111.034Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraA" d="M2837.99 344.169H2861.05V367.728H2857.21V349.077H2841.83V457.055H2857.21V367.728H2861.05V461.963H2841.83H2837.99V344.169Z" fill="#D45AD7"/>
+                        <path id="TopRightB" d="M2859.9 88.9473L2879.5 110.42V114.715L2855.29 88.9473H2859.9Z" fill="#D45AD7"/>
+                    </g>
+
+                    <g id="BottomLeft">
+                        <path id="BottomLEftExtraB" d="M33.0986 1442.54L33.0989 1431.32L82.686 1431.94V1484.92H33.0989V1474.95L33.0986 1442.54H42.9007V1474.95H75.19V1442.54H33.0986Z" fill="#D45AD7"/>
+                        <path id="BottomLeftAExtra" d="M934.893 2464.62H948.731V2467.11H937.199V2474.59H946.424V2467.11H948.731V2477.09H937.199H934.893V2464.62Z" fill="#D45AD7"/>
+                        <path id="BottomLeftB" d="M68.8477 1501.12H82.6859V2301.96L143.805 2420.37H464.968L497.258 2452.16H677.155V2464.62H487.455L458.049 2436.58H134.579L68.8477 2307.57V1501.12Z" fill="#D45AD7"/>
+                        <path id="BottomLeftA" d="M35.4053 1547.24H49.2435V2348.08L113.822 2473.97H306.981L338.117 2450.91H388.281L417.111 2478.33H879.54L900.874 2464.62H929.704V2477.09H904.91L884.153 2491.42H417.111L383.668 2461.51H342.154L305.252 2489.55H105.75L35.4053 2353.69V1547.24Z" fill="#D45AD7"/>
+                    </g>
+
+                    <g id="TopLeft">
+                        <path id="TopLeftB" d="M97.4336 460.96L131.453 400.381L130.876 301.478H123.38V281.698H146.444L128.57 285.406V299.006H141.255V285.406H128.57L146.444 281.698V301.478H139.525V405.327L108.389 463.432V731.707H97.4336V460.96Z" fill="#38D7D0"/>
+                        <path id="TopLeftA" d="M1247.74 82.0361V98.1074L1239.34 107.998V130.869H1107.05L1036.13 91.9258H96.8574L57.6494 135.814V804.647H49V132.105L96.8574 83.2725H1042.47L1107.05 122.834L1233.33 124.069V107.998L1222.95 98.1074V82.0361L1233.33 74H1239.67L1247.74 82.0361ZM1233.33 76.4727L1225.83 82.6543V98.1074L1233.9 104.907H1238.52L1244.86 98.1074V82.6543L1239.09 76.4727H1233.33Z" fill="#38D7D0"/>
+                    </g>
+                </g>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="PopUpTitle">
+                <foreignObject x="145" y="225" width="2666" height="2176">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_1_2138_72_clip_path);height:100%;width:100%">                        
+                    </div>
+                </foreignObject>
+                
+                <rect id="PopUpTitleBack" data-figma-bg-blur-radius="40" x="185" y="265" width="2586" height="2096" rx="45" fill="#3A3A3A" fill-opacity="0.2"/>
+                
+                <foreignObject x="220" y="520" width="2400" height="356">
+                    <div xmlns="http://www.w3.org/1999/xhtml" class="h-full w-full font-iter  text-white">
+                        <div class="h-max font-iter text-[min(12vh,12vw)] md:text-[min(5vh,5vw)] text-white">
+                        Note: Some of these projects were originally developed on my university&#39;s GitLab and have been migrated to GitHub. As a result, their commit histories are not preserved. Demo sections are being added progressively.
+                        </div>
+                    </div>
+                </foreignObject>
+
+                <path id="Projects" d="M1187.17 488V395.968H1263.97C1266.78 395.968 1269.34 396.693 1271.65 398.144C1274.04 399.509 1275.91 401.344 1277.28 403.648C1278.65 405.952 1279.33 408.512 1279.33 411.328V438.336C1279.33 441.152 1278.65 443.712 1277.28 446.016C1275.91 448.32 1274.04 450.197 1271.65 451.648C1269.34 453.013 1266.78 453.696 1263.97 453.696H1197.54V488H1187.17ZM1202.53 443.2H1263.97C1265.33 443.2 1266.49 442.731 1267.42 441.792C1268.45 440.853 1268.96 439.701 1268.96 438.336V411.328C1268.96 409.963 1268.45 408.811 1267.42 407.872C1266.49 406.848 1265.33 406.336 1263.97 406.336H1202.53C1201.16 406.336 1199.97 406.848 1198.94 407.872C1198.01 408.811 1197.54 409.963 1197.54 411.328V438.336C1197.54 439.701 1198.01 440.853 1198.94 441.792C1199.97 442.731 1201.16 443.2 1202.53 443.2ZM1287.91 488V429.248C1287.91 426.432 1288.59 423.872 1289.95 421.568C1291.4 419.179 1293.28 417.301 1295.59 415.936C1297.98 414.485 1300.58 413.76 1303.39 413.76H1345.12V424.256H1303.39C1302.03 424.256 1300.83 424.768 1299.81 425.792C1298.87 426.731 1298.4 427.883 1298.4 429.248V488H1287.91ZM1368.14 488C1365.33 488 1362.72 487.317 1360.33 485.952C1358.03 484.501 1356.15 482.624 1354.7 480.32C1353.34 477.931 1352.65 475.328 1352.65 472.512V429.248C1352.65 426.432 1353.34 423.872 1354.7 421.568C1356.15 419.179 1358.03 417.301 1360.33 415.936C1362.72 414.485 1365.33 413.76 1368.14 413.76H1412.69C1415.59 413.76 1418.19 414.485 1420.49 415.936C1422.88 417.301 1424.76 419.179 1426.12 421.568C1427.58 423.872 1428.3 426.432 1428.3 429.248V472.512C1428.3 475.328 1427.58 477.931 1426.12 480.32C1424.76 482.624 1422.88 484.501 1420.49 485.952C1418.19 487.317 1415.59 488 1412.69 488H1368.14ZM1368.14 477.504H1412.69C1414.05 477.504 1415.2 477.035 1416.14 476.096C1417.17 475.072 1417.68 473.877 1417.68 472.512V429.248C1417.68 427.883 1417.17 426.731 1416.14 425.792C1415.2 424.768 1414.05 424.256 1412.69 424.256H1368.14C1366.78 424.256 1365.58 424.768 1364.56 425.792C1363.62 426.731 1363.15 427.883 1363.15 429.248V472.512C1363.15 473.877 1363.62 475.072 1364.56 476.096C1365.58 477.035 1366.78 477.504 1368.14 477.504ZM1410.81 519.104V508.48H1442.17C1443.54 508.48 1444.69 507.968 1445.63 506.944C1446.65 506.005 1447.17 504.853 1447.17 503.488V413.76H1457.79V503.488C1457.79 506.389 1457.06 508.992 1455.61 511.296C1454.25 513.685 1452.37 515.563 1449.98 516.928C1447.68 518.379 1445.08 519.104 1442.17 519.104H1410.81ZM1447.17 399.936V389.44H1457.79V399.936H1447.17ZM1484.89 488C1482.08 488 1479.47 487.317 1477.08 485.952C1474.78 484.501 1472.9 482.624 1471.45 480.32C1470.09 477.931 1469.4 475.328 1469.4 472.512V429.248C1469.4 426.432 1470.09 423.872 1471.45 421.568C1472.9 419.179 1474.78 417.301 1477.08 415.936C1479.47 414.485 1482.08 413.76 1484.89 413.76H1529.44C1532.34 413.76 1534.94 414.485 1537.24 415.936C1539.63 417.301 1541.51 419.179 1542.88 421.568C1544.33 423.872 1545.05 426.432 1545.05 429.248V456.128H1479.9V472.512C1479.9 473.877 1480.37 475.072 1481.31 476.096C1482.33 477.035 1483.53 477.504 1484.89 477.504H1545.05V488H1484.89ZM1479.9 445.632H1534.43V429.248C1534.43 427.883 1533.92 426.731 1532.89 425.792C1531.95 424.768 1530.8 424.256 1529.44 424.256H1484.89C1483.53 424.256 1482.33 424.768 1481.31 425.792C1480.37 426.731 1479.9 427.883 1479.9 429.248V445.632ZM1571.02 488C1568.2 488 1565.6 487.317 1563.21 485.952C1560.9 484.501 1559.03 482.624 1557.58 480.32C1556.21 477.931 1555.53 475.328 1555.53 472.512V429.248C1555.53 426.432 1556.21 423.872 1557.58 421.568C1559.03 419.179 1560.9 417.301 1563.21 415.936C1565.6 414.485 1568.2 413.76 1571.02 413.76H1630.92V424.256H1571.02C1569.65 424.256 1568.46 424.768 1567.43 425.792C1566.49 426.731 1566.02 427.883 1566.02 429.248V472.512C1566.02 473.877 1566.49 475.072 1567.43 476.096C1568.46 477.035 1569.65 477.504 1571.02 477.504H1631.18V488H1571.02ZM1657.02 488C1654.12 488 1651.48 487.317 1649.09 485.952C1646.78 484.501 1644.95 482.624 1643.58 480.32C1642.22 477.931 1641.53 475.328 1641.53 472.512V389.44H1652.03V413.76H1684.16V424.256H1652.03V472.512C1652.03 473.877 1652.5 475.072 1653.44 476.096C1654.46 477.035 1655.66 477.504 1657.02 477.504H1684.16V488H1657.02ZM1708.88 488C1706.07 488 1703.46 487.317 1701.07 485.952C1698.77 484.501 1696.89 482.624 1695.44 480.32C1694.08 477.931 1693.39 475.328 1693.39 472.512V471.488H1703.89V472.512C1703.89 473.877 1704.36 475.072 1705.3 476.096C1706.32 477.035 1707.52 477.504 1708.88 477.504H1753.43C1754.79 477.504 1755.94 477.035 1756.88 476.096C1757.91 475.072 1758.42 473.877 1758.42 472.512V461.12C1758.42 459.755 1757.91 458.603 1756.88 457.664C1755.94 456.64 1754.79 456.128 1753.43 456.128H1708.88C1706.07 456.128 1703.46 455.445 1701.07 454.08C1698.77 452.629 1696.89 450.752 1695.44 448.448C1694.08 446.059 1693.39 443.456 1693.39 440.64V429.248C1693.39 426.432 1694.08 423.872 1695.44 421.568C1696.89 419.179 1698.77 417.301 1701.07 415.936C1703.46 414.485 1706.07 413.76 1708.88 413.76H1753.43C1756.33 413.76 1758.93 414.485 1761.23 415.936C1763.62 417.301 1765.5 419.179 1766.87 421.568C1768.32 423.872 1769.04 426.432 1769.04 429.248V430.272H1758.42V429.248C1758.42 427.883 1757.91 426.731 1756.88 425.792C1755.94 424.768 1754.79 424.256 1753.43 424.256H1708.88C1707.52 424.256 1706.32 424.768 1705.3 425.792C1704.36 426.731 1703.89 427.883 1703.89 429.248V440.64C1703.89 442.005 1704.36 443.2 1705.3 444.224C1706.32 445.163 1707.52 445.632 1708.88 445.632H1753.43C1756.33 445.632 1758.93 446.357 1761.23 447.808C1763.62 449.173 1765.5 451.051 1766.87 453.44C1768.32 455.744 1769.04 458.304 1769.04 461.12V472.512C1769.04 475.328 1768.32 477.931 1766.87 480.32C1765.5 482.624 1763.62 484.501 1761.23 485.952C1758.93 487.317 1756.33 488 1753.43 488H1708.88Z" fill="white"/>
+            </g>
+
+            <g  class="group cursor-pointer transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                (click)="closeProjects()" 
+                id="ExitButton">
+                <rect class="group-hover:fill-[#D45AD7] duration-350" id="ExitBack" x="2535" y="369" width="149" height="119" fill="#202020"/>
+                <path class="group-hover:opacity-0 duration-350" id="ExitBorder" d="M2535 369H2540V483.5H2679.5V373H2540V369H2684V488H2535V369Z" fill="#D45AD7"/>
+                <path class="group-hover:fill-[#202020] duration-350" id="XPart" d="M2561.5 379.5H2570L2604.5 415H2617L2647 379.5H2657.5L2657 386.5L2624 422V432.5L2657 471.5V477.5H2647L2617 438.5H2604.5L2570 477.5H2561.5V471.5L2598.5 432.5V422L2561.5 386.5V379.5Z" fill="#D45AD7"/>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="ProjectContent">
+                <foreignObject x="145" y="847" width="2666" height="1554">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_2_2138_72_clip_path);height:100%;width:100%">                        
+                    </div>
+                </foreignObject>
+                
+                <rect id="ContentBack" data-figma-bg-blur-radius="40" x="185" y="887" width="2586" height="1474" rx="35" fill="#525252" fill-opacity="0.2"/>
+
+                <foreignObject x="185" y="900" width="2586" height="1425">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                        class="w-full h-full overflow-y-auto flex flex-col gap-6 p-8">
+                        @for (project of projects; track project.title; let i = $index) {
+                            <div class="w-full h-max group"
+                                (click)="toggleExpand(i)">
+                                <svg class="w-full h-max" x="185" y="900" width="2586" height="800" viewBox="0 0 2586 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="" id="StuffItem">
+                                        
+                                        <g [class.hidden]="project.priority != 1">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#8D93D4]]="expandedIndex === i" id="RightBorder_2" d="M2531 55V755H1606.5L1503.5 704.5L2481 705V105H1255L1171 55H2531Z" fill="#38D7D0"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#7F9ED3]]="expandedIndex === i"id="LeftBorder_2" d="M23 46H884L939.5 96H73.0001V703H1186L1265 753H23V46Z" fill="#D45AD7"/>
+                                        </g>
+
+                                        <g [class.hidden]="project.priority != 2">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#A2A8CF]]="expandedIndex === i" id="RightBorder_2" d="M2523 62V748H1597.5L1516.5 712H2487V98H1248L1176 62H2523Z" fill="#4BBFB8"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#9AA7CC]]="expandedIndex === i"id="LeftBorder_2" d="M30 53H885L938.5 89H66V710H1184.5L1261.5 746H30V53Z" fill="#B47CC9"/>
+                                        </g>
+
+                                        <g [class.hidden]="project.priority != 3">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#B7BCD1]]="expandedIndex === i" id="RightBorder_2" d="M2523 76V741H1589L1544 719H2501V98H1247L1191 76H2523Z" fill="#6CBDB9"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#B2B7C9]]="expandedIndex === i"id="LeftBorder_2" d="M37 60H885.5L936 82H59V717H1185L1257.5 739H37V60Z" fill="#A77BB1"/>
+                                        </g>
+
+
+                                        <g class="opacity-0 group-hover:opacity-100 transition-all duration-1000" [class.opacity-100]="expandedIndex === i">
+                                            <g class="group/git cursor-pointer" [class.hidden]="!project.github" (click)="goToLink(project.github!)">
+                                                <rect class="group-hover/git:fill-[black] transition-colors duration-700" id="GitHubLogoBack" x="2150" y="455" width="170" height="138" rx="25" fill="white"/>
+                                                <path class="group-hover/git:fill-[white] transition-colors duration-700" id="GitHubLogo" fill-rule="evenodd" clip-rule="evenodd" d="M2234.57 471C2204.95 471 2181 495.123 2181 524.967C2181 548.822 2196.34 569.016 2217.63 576.163C2220.29 576.7 2221.26 575.001 2221.26 573.573C2221.26 572.322 2221.18 568.033 2221.18 563.565C2206.28 566.782 2203.17 557.132 2203.17 557.132C2200.78 550.877 2197.23 549.27 2197.23 549.27C2192.35 545.964 2197.58 545.964 2197.58 545.964C2202.99 546.321 2205.83 551.503 2205.83 551.503C2210.62 559.723 2218.34 557.4 2221.44 555.97C2221.89 552.486 2223.31 550.073 2224.81 548.733C2212.93 547.482 2200.42 542.836 2200.42 522.107C2200.42 516.21 2202.55 511.385 2205.92 507.633C2205.39 506.293 2203.53 500.753 2206.45 493.337C2206.45 493.337 2210.98 491.907 2221.18 498.876C2225.54 497.695 2230.05 497.094 2234.57 497.089C2239.09 497.089 2243.7 497.715 2247.96 498.876C2258.16 491.907 2262.68 493.337 2262.68 493.337C2265.61 500.753 2263.75 506.293 2263.21 507.633C2266.67 511.385 2268.71 516.21 2268.71 522.107C2268.71 542.836 2256.21 547.392 2244.24 548.733C2246.19 550.431 2247.87 553.647 2247.87 558.74C2247.87 565.977 2247.78 571.785 2247.78 573.572C2247.78 575.001 2248.76 576.7 2251.42 576.164C2272.71 569.014 2288.05 548.822 2288.05 524.967C2288.14 495.123 2264.1 471 2234.57 471Z" fill="black"/>
+                                            </g>
+                                            
+                                            <foreignObject
+                                                x="1788"
+                                                y="150"
+                                                width="650"
+                                                height="290" 
+                                                [class.hidden]="!project.website"
+                                                class="cursor-pointer"
+                                                (click)="goToLink(project.website!)"
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[4vw] leading-tight h-max">
+                                                    Project Link
+                                                </div>
+                                            </foreignObject>
+
+                                            
+                                            <foreignObject
+                                                x="95"
+                                                y="132"
+                                                width="1500"
+                                                height="252" 
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white  text-[8vh] lg:text-[min(4vw, 90px] leading-tight h-max 
+                                                            line-clamp-2
+                                                            ">
+                                                    {{ project.longDesc }}
+                                                </div>
+                                            </foreignObject>
+
+
+                                            <foreignObject
+                                                x="95"
+                                                y="424"
+                                                width="1500"
+                                                height="252" 
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[min(4vw, 90px] h-max 
+                                                            line-clamp-2">
+                                                    {{ project.tech }}
+                                                </div>
+                                            </foreignObject>
+                                            
+                                        </g>
+
+                                        <g class="group-hover:opacity-0 transition-all duration-1000 pointer-events-none" [class.opacity-0]="expandedIndex === i">
+                                            <foreignObject
+                                                x="926"
+                                                y="375"
+                                                width="1334"
+                                                height="292" >
+                                                
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[min(4vw, 90px)] h-max 
+                                                            line-clamp-2">            
+                                                    {{ project.shortDesc }}
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="250"
+                                                y="200"
+                                                width="391"
+                                                height="391"
+                                                >
+                                                <div class="w-full h-full flex items-center justify-center" xmlns="http://www.w3.org/1999/xhtml">
+                                                    <img class="w-full h-full" [src]="project.logo" alt="" />
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="926"
+                                                y="168"
+                                                width="1334"
+                                                height="184" >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="w-full h-full">
+                                                    <div class="w-full h-full flex items-center justify-start">
+                                                    <span
+                                                        class="font-orbitron text-white"
+                                                        style="font-size: 10vh; line-height: 1; white-space: nowrap;"
+                                                    >
+                                                        {{ project.title }}
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </foreignObject>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        }
+                    </div>
+                </foreignObject>
+            
+            </g>
+        </g>
+
+        <defs>
+            <clipPath id="bgblur_0_2138_72_clip_path" transform="translate(100 100)"><rect width="2913" height="2518"/>
+            </clipPath><clipPath id="bgblur_1_2138_72_clip_path" transform="translate(-145 -225)"><rect x="185" y="265" width="2586" height="2096" rx="45"/>
+            </clipPath><clipPath id="bgblur_2_2138_72_clip_path" transform="translate(-145 -847)"><rect x="185" y="887" width="2586" height="1474" rx="35"/>
+            </clipPath>
+        </defs>
+    </svg>
+</div>
+}
+
+@else {
+
+<div    
+    class="fixed w-full h-full flex items-center justify center pointer-events-none"
+    [class.none]="!showScreen"
+    [class.block]="showScreen"
+    >
+    <svg
+        [class.pointer-events-none]="!showScreen"
+        [class.opacity-0]="!showScreen"
+        [class.h-0]="!showScreen"
+        [class.none]="!showScreen"
+
+        [class.block]="showScreen"
+        [class.w-full]="showScreen"
+        [class.h-[50vh]]="showScreen"
+
+        [class.sm:h-full]="showScreen"
+        [class.lg:h-[85vh]]="showScreen"
+        
+        [class.opacity-100]="showScreen"
+        
+        class="[pointer-events:visiblePainted] my-[10%] sm:m-[10%]"
+        width="2951" height="2518" viewBox="0 0 2951 2518" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="PopUpProjects">
+            <g id="PopUpScreenBack">
+                <rect 
+                class="transition-all duration-900 ease-in-out"
+                [attr.opacity]="showBack ? 1 : 0"
+                id="Back" data-figma-bg-blur-radius="100" width="2913" height="2518" fill="black" fill-opacity="0.2"/>
+                
+                <g  class="transition-opacity duration-900 ease-in-out"
+                    [attr.opacity]="showContent ? 1 : 0">>
+                    <g id="BottomRight">
+                        <path id="BottomRightC" d="M2873.4 1709.9H2880.32V1954.83L2860.14 1982.25V2014.66H2853.8V1977.89L2873.4 1951.71V1709.9Z" fill="#38D7D0"/>
+                        <path id="BottomRightB" d="M1841.3 2498.27H2439.23L2454.22 2480.82H2804.79L2865.91 2435.95V1981.62L2871.1 1974.15H2891.28L2895.89 1978.51V2014.03H2890.7V1982.25L2887.82 1978.51H2874.56L2871.1 1984.12V2441.56L2808.25 2488.3H2457.1L2442.11 2507H1848.22L1841.3 2498.27Z" fill="#38D7D0"/>
+                        <path id="BottomRightA" d="M1145.93 2464.62H1834.38L1852.26 2482.69H2431.73L2448.45 2464.62H2629.51L2639.66 2475.22H2451.34L2436.92 2492.04H1845.91L1829.77 2477.09H1145.93V2464.62Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraC" d="M2861.87 1645.71H2868.79V1946.1L2853.8 1964.17V1954.2L2861.87 1944.09V1645.71Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraA" d="M2770.77 2475.22V2468.36H2796.72L2855.53 2429.1V2409.78H2861.87V2434.08L2802.48 2475.22H2770.77Z" fill="#38D7D0"/>
+                        <path id="BottomRightExtraB" d="M2821.51 2488.3H2812.86L2871.1 2444.68L2870.52 2451.53L2821.51 2488.3Z" fill="#38D7D0"/>
+                    </g>
+
+                    <g id="TopRight">
+                        <path id="RightTopA" d="M1539.5 124.531L2418.23 125.145L2449.94 88.3342L2848.37 88.9477L2879.5 122.077V467.485H2870.85V124.531L2845.48 98.1504L2452.82 97.5369L2421.69 134.348H1539.5V124.531Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraC" d="M1608.69 104.899H1622.53V107.353H1610.99V114.715H1620.22V107.353H1622.53V117.169H1610.99H1608.69V104.899Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraB" d="M2467.81 111.034H2495.49V116.188H2472.43V131.648H2490.88V116.188H2495.49V136.802H2472.43H2467.81V111.034Z" fill="#D45AD7"/>
+                        <path id="TopRightExtraA" d="M2837.99 344.169H2861.05V367.728H2857.21V349.077H2841.83V457.055H2857.21V367.728H2861.05V461.963H2841.83H2837.99V344.169Z" fill="#D45AD7"/>
+                        <path id="TopRightB" d="M2859.9 88.9473L2879.5 110.42V114.715L2855.29 88.9473H2859.9Z" fill="#D45AD7"/>
+                    </g>
+
+                    <g id="BottomLeft">
+                        <path id="BottomLEftExtraB" d="M33.0986 1442.54L33.0989 1431.32L82.686 1431.94V1484.92H33.0989V1474.95L33.0986 1442.54H42.9007V1474.95H75.19V1442.54H33.0986Z" fill="#D45AD7"/>
+                        <path id="BottomLeftAExtra" d="M934.893 2464.62H948.731V2467.11H937.199V2474.59H946.424V2467.11H948.731V2477.09H937.199H934.893V2464.62Z" fill="#D45AD7"/>
+                        <path id="BottomLeftB" d="M68.8477 1501.12H82.6859V2301.96L143.805 2420.37H464.968L497.258 2452.16H677.155V2464.62H487.455L458.049 2436.58H134.579L68.8477 2307.57V1501.12Z" fill="#D45AD7"/>
+                        <path id="BottomLeftA" d="M35.4053 1547.24H49.2435V2348.08L113.822 2473.97H306.981L338.117 2450.91H388.281L417.111 2478.33H879.54L900.874 2464.62H929.704V2477.09H904.91L884.153 2491.42H417.111L383.668 2461.51H342.154L305.252 2489.55H105.75L35.4053 2353.69V1547.24Z" fill="#D45AD7"/>
+                    </g>
+
+                    <g id="TopLeft">
+                        <path id="TopLeftB" d="M97.4336 460.96L131.453 400.381L130.876 301.478H123.38V281.698H146.444L128.57 285.406V299.006H141.255V285.406H128.57L146.444 281.698V301.478H139.525V405.327L108.389 463.432V731.707H97.4336V460.96Z" fill="#38D7D0"/>
+                        <path id="TopLeftA" d="M1247.74 82.0361V98.1074L1239.34 107.998V130.869H1107.05L1036.13 91.9258H96.8574L57.6494 135.814V804.647H49V132.105L96.8574 83.2725H1042.47L1107.05 122.834L1233.33 124.069V107.998L1222.95 98.1074V82.0361L1233.33 74H1239.67L1247.74 82.0361ZM1233.33 76.4727L1225.83 82.6543V98.1074L1233.9 104.907H1238.52L1244.86 98.1074V82.6543L1239.09 76.4727H1233.33Z" fill="#38D7D0"/>
+                    </g>
+                </g>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="PopUpTitle">
+                
+                <rect id="PopUpTitleBack" data-figma-bg-blur-radius="40" x="185" y="265" width="2586" height="2096" rx="45" fill="#3A3A3A" fill-opacity="0.2"/>
+                
+                <foreignObject x="220" y="520" width="2400" height="356">
+                    <div xmlns="http://www.w3.org/1999/xhtml" class="h-full w-full font-iter  text-white">
+                        <div class="h-max font-iter text-[min(12vh,12vw)] md:text-[min(5vh,5vw)] text-white">
+                        Note: Some of these projects were originally developed on my university&#39;s GitLab and have been migrated to GitHub. As a result, their commit histories are not preserved. Demo sections are being added progressively.
+                        </div>
+                    </div>
+                </foreignObject>
+                <path id="Projects" d="M1187.17 488V395.968H1263.97C1266.78 395.968 1269.34 396.693 1271.65 398.144C1274.04 399.509 1275.91 401.344 1277.28 403.648C1278.65 405.952 1279.33 408.512 1279.33 411.328V438.336C1279.33 441.152 1278.65 443.712 1277.28 446.016C1275.91 448.32 1274.04 450.197 1271.65 451.648C1269.34 453.013 1266.78 453.696 1263.97 453.696H1197.54V488H1187.17ZM1202.53 443.2H1263.97C1265.33 443.2 1266.49 442.731 1267.42 441.792C1268.45 440.853 1268.96 439.701 1268.96 438.336V411.328C1268.96 409.963 1268.45 408.811 1267.42 407.872C1266.49 406.848 1265.33 406.336 1263.97 406.336H1202.53C1201.16 406.336 1199.97 406.848 1198.94 407.872C1198.01 408.811 1197.54 409.963 1197.54 411.328V438.336C1197.54 439.701 1198.01 440.853 1198.94 441.792C1199.97 442.731 1201.16 443.2 1202.53 443.2ZM1287.91 488V429.248C1287.91 426.432 1288.59 423.872 1289.95 421.568C1291.4 419.179 1293.28 417.301 1295.59 415.936C1297.98 414.485 1300.58 413.76 1303.39 413.76H1345.12V424.256H1303.39C1302.03 424.256 1300.83 424.768 1299.81 425.792C1298.87 426.731 1298.4 427.883 1298.4 429.248V488H1287.91ZM1368.14 488C1365.33 488 1362.72 487.317 1360.33 485.952C1358.03 484.501 1356.15 482.624 1354.7 480.32C1353.34 477.931 1352.65 475.328 1352.65 472.512V429.248C1352.65 426.432 1353.34 423.872 1354.7 421.568C1356.15 419.179 1358.03 417.301 1360.33 415.936C1362.72 414.485 1365.33 413.76 1368.14 413.76H1412.69C1415.59 413.76 1418.19 414.485 1420.49 415.936C1422.88 417.301 1424.76 419.179 1426.12 421.568C1427.58 423.872 1428.3 426.432 1428.3 429.248V472.512C1428.3 475.328 1427.58 477.931 1426.12 480.32C1424.76 482.624 1422.88 484.501 1420.49 485.952C1418.19 487.317 1415.59 488 1412.69 488H1368.14ZM1368.14 477.504H1412.69C1414.05 477.504 1415.2 477.035 1416.14 476.096C1417.17 475.072 1417.68 473.877 1417.68 472.512V429.248C1417.68 427.883 1417.17 426.731 1416.14 425.792C1415.2 424.768 1414.05 424.256 1412.69 424.256H1368.14C1366.78 424.256 1365.58 424.768 1364.56 425.792C1363.62 426.731 1363.15 427.883 1363.15 429.248V472.512C1363.15 473.877 1363.62 475.072 1364.56 476.096C1365.58 477.035 1366.78 477.504 1368.14 477.504ZM1410.81 519.104V508.48H1442.17C1443.54 508.48 1444.69 507.968 1445.63 506.944C1446.65 506.005 1447.17 504.853 1447.17 503.488V413.76H1457.79V503.488C1457.79 506.389 1457.06 508.992 1455.61 511.296C1454.25 513.685 1452.37 515.563 1449.98 516.928C1447.68 518.379 1445.08 519.104 1442.17 519.104H1410.81ZM1447.17 399.936V389.44H1457.79V399.936H1447.17ZM1484.89 488C1482.08 488 1479.47 487.317 1477.08 485.952C1474.78 484.501 1472.9 482.624 1471.45 480.32C1470.09 477.931 1469.4 475.328 1469.4 472.512V429.248C1469.4 426.432 1470.09 423.872 1471.45 421.568C1472.9 419.179 1474.78 417.301 1477.08 415.936C1479.47 414.485 1482.08 413.76 1484.89 413.76H1529.44C1532.34 413.76 1534.94 414.485 1537.24 415.936C1539.63 417.301 1541.51 419.179 1542.88 421.568C1544.33 423.872 1545.05 426.432 1545.05 429.248V456.128H1479.9V472.512C1479.9 473.877 1480.37 475.072 1481.31 476.096C1482.33 477.035 1483.53 477.504 1484.89 477.504H1545.05V488H1484.89ZM1479.9 445.632H1534.43V429.248C1534.43 427.883 1533.92 426.731 1532.89 425.792C1531.95 424.768 1530.8 424.256 1529.44 424.256H1484.89C1483.53 424.256 1482.33 424.768 1481.31 425.792C1480.37 426.731 1479.9 427.883 1479.9 429.248V445.632ZM1571.02 488C1568.2 488 1565.6 487.317 1563.21 485.952C1560.9 484.501 1559.03 482.624 1557.58 480.32C1556.21 477.931 1555.53 475.328 1555.53 472.512V429.248C1555.53 426.432 1556.21 423.872 1557.58 421.568C1559.03 419.179 1560.9 417.301 1563.21 415.936C1565.6 414.485 1568.2 413.76 1571.02 413.76H1630.92V424.256H1571.02C1569.65 424.256 1568.46 424.768 1567.43 425.792C1566.49 426.731 1566.02 427.883 1566.02 429.248V472.512C1566.02 473.877 1566.49 475.072 1567.43 476.096C1568.46 477.035 1569.65 477.504 1571.02 477.504H1631.18V488H1571.02ZM1657.02 488C1654.12 488 1651.48 487.317 1649.09 485.952C1646.78 484.501 1644.95 482.624 1643.58 480.32C1642.22 477.931 1641.53 475.328 1641.53 472.512V389.44H1652.03V413.76H1684.16V424.256H1652.03V472.512C1652.03 473.877 1652.5 475.072 1653.44 476.096C1654.46 477.035 1655.66 477.504 1657.02 477.504H1684.16V488H1657.02ZM1708.88 488C1706.07 488 1703.46 487.317 1701.07 485.952C1698.77 484.501 1696.89 482.624 1695.44 480.32C1694.08 477.931 1693.39 475.328 1693.39 472.512V471.488H1703.89V472.512C1703.89 473.877 1704.36 475.072 1705.3 476.096C1706.32 477.035 1707.52 477.504 1708.88 477.504H1753.43C1754.79 477.504 1755.94 477.035 1756.88 476.096C1757.91 475.072 1758.42 473.877 1758.42 472.512V461.12C1758.42 459.755 1757.91 458.603 1756.88 457.664C1755.94 456.64 1754.79 456.128 1753.43 456.128H1708.88C1706.07 456.128 1703.46 455.445 1701.07 454.08C1698.77 452.629 1696.89 450.752 1695.44 448.448C1694.08 446.059 1693.39 443.456 1693.39 440.64V429.248C1693.39 426.432 1694.08 423.872 1695.44 421.568C1696.89 419.179 1698.77 417.301 1701.07 415.936C1703.46 414.485 1706.07 413.76 1708.88 413.76H1753.43C1756.33 413.76 1758.93 414.485 1761.23 415.936C1763.62 417.301 1765.5 419.179 1766.87 421.568C1768.32 423.872 1769.04 426.432 1769.04 429.248V430.272H1758.42V429.248C1758.42 427.883 1757.91 426.731 1756.88 425.792C1755.94 424.768 1754.79 424.256 1753.43 424.256H1708.88C1707.52 424.256 1706.32 424.768 1705.3 425.792C1704.36 426.731 1703.89 427.883 1703.89 429.248V440.64C1703.89 442.005 1704.36 443.2 1705.3 444.224C1706.32 445.163 1707.52 445.632 1708.88 445.632H1753.43C1756.33 445.632 1758.93 446.357 1761.23 447.808C1763.62 449.173 1765.5 451.051 1766.87 453.44C1768.32 455.744 1769.04 458.304 1769.04 461.12V472.512C1769.04 475.328 1768.32 477.931 1766.87 480.32C1765.5 482.624 1763.62 484.501 1761.23 485.952C1758.93 487.317 1756.33 488 1753.43 488H1708.88Z" fill="white"/>
+            </g>
+
+            <g  class="group cursor-pointer transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                (click)="closeProjects()" 
+                id="ExitButton">
+                <rect class="group-hover:fill-[#D45AD7] duration-350" id="ExitBack" x="2535" y="369" width="149" height="119" fill="#202020"/>
+                <path class="group-hover:opacity-0 duration-350" id="ExitBorder" d="M2535 369H2540V483.5H2679.5V373H2540V369H2684V488H2535V369Z" fill="#D45AD7"/>
+                <path class="group-hover:fill-[#202020] duration-350" id="XPart" d="M2561.5 379.5H2570L2604.5 415H2617L2647 379.5H2657.5L2657 386.5L2624 422V432.5L2657 471.5V477.5H2647L2617 438.5H2604.5L2570 477.5H2561.5V471.5L2598.5 432.5V422L2561.5 386.5V379.5Z" fill="#D45AD7"/>
+            </g>
+
+            <g  class="transition-opacity duration-900 ease-in-out"
+                [attr.opacity]="showContent ? 1 : 0"
+                id="ProjectContent">
+                
+                <rect id="ContentBack" data-figma-bg-blur-radius="40" x="185" y="887" width="2586" height="1474" rx="35" fill="#525252" fill-opacity="0.2"/>
+
+                @if (!isMac) {
+                    <foreignObject x="185" y="900" width="2586" height="1425">
+                        <div xmlns="http://www.w3.org/1999/xhtml"
+                            class="w-full h-full overflow-y-auto flex flex-col gap-6 p-8">
+                            @for (project of projects; track project.title; let i = $index) {
+                                <div class="w-full h-max group"
+                                    (click)="toggleExpand(i)">
+                                    <svg class="w-full h-max" x="185" y="900" width="2586" height="800" viewBox="0 0 2586 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g class="" id="StuffItem">
+
+                                            <g [class.hidden]="project.priority != 1">
+                                                <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#8D93D4]]="expandedIndex === i" id="RightBorder_2" d="M2531 55V755H1606.5L1503.5 704.5L2481 705V105H1255L1171 55H2531Z" fill="#38D7D0"/>
+                                                <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#7F9ED3]]="expandedIndex === i"id="LeftBorder_2" d="M23 46H884L939.5 96H73.0001V703H1186L1265 753H23V46Z" fill="#D45AD7"/>
+                                            </g>
+
+                                            <g [class.hidden]="project.priority != 2">
+                                                <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#A2A8CF]]="expandedIndex === i" id="RightBorder_2" d="M2523 62V748H1597.5L1516.5 712H2487V98H1248L1176 62H2523Z" fill="#4BBFB8"/>
+                                                <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#9AA7CC]]="expandedIndex === i"id="LeftBorder_2" d="M30 53H885L938.5 89H66V710H1184.5L1261.5 746H30V53Z" fill="#B47CC9"/>
+                                            </g>
+
+                                            <g [class.hidden]="project.priority != 3">
+                                                <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#B7BCD1]]="expandedIndex === i" id="RightBorder_2" d="M2523 76V741H1589L1544 719H2501V98H1247L1191 76H2523Z" fill="#6CBDB9"/>
+                                                <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#B2B7C9]]="expandedIndex === i"id="LeftBorder_2" d="M37 60H885.5L936 82H59V717H1185L1257.5 739H37V60Z" fill="#A77BB1"/>
+                                            </g>
+
+
+                                            <g class="opacity-0 group-hover:opacity-100 transition-all duration-1000" [class.opacity-100]="expandedIndex === i">
+                                                <g class="group/git cursor-pointer" [class.hidden]="!project.github" (click)="goToLink(project.github!)">
+                                                    <rect class="group-hover/git:fill-[black] transition-colors duration-700" id="GitHubLogoBack" x="2150" y="455" width="170" height="138" rx="25" fill="white"/>
+                                                    <path class="group-hover/git:fill-[white] transition-colors duration-700" id="GitHubLogo" fill-rule="evenodd" clip-rule="evenodd" d="M2234.57 471C2204.95 471 2181 495.123 2181 524.967C2181 548.822 2196.34 569.016 2217.63 576.163C2220.29 576.7 2221.26 575.001 2221.26 573.573C2221.26 572.322 2221.18 568.033 2221.18 563.565C2206.28 566.782 2203.17 557.132 2203.17 557.132C2200.78 550.877 2197.23 549.27 2197.23 549.27C2192.35 545.964 2197.58 545.964 2197.58 545.964C2202.99 546.321 2205.83 551.503 2205.83 551.503C2210.62 559.723 2218.34 557.4 2221.44 555.97C2221.89 552.486 2223.31 550.073 2224.81 548.733C2212.93 547.482 2200.42 542.836 2200.42 522.107C2200.42 516.21 2202.55 511.385 2205.92 507.633C2205.39 506.293 2203.53 500.753 2206.45 493.337C2206.45 493.337 2210.98 491.907 2221.18 498.876C2225.54 497.695 2230.05 497.094 2234.57 497.089C2239.09 497.089 2243.7 497.715 2247.96 498.876C2258.16 491.907 2262.68 493.337 2262.68 493.337C2265.61 500.753 2263.75 506.293 2263.21 507.633C2266.67 511.385 2268.71 516.21 2268.71 522.107C2268.71 542.836 2256.21 547.392 2244.24 548.733C2246.19 550.431 2247.87 553.647 2247.87 558.74C2247.87 565.977 2247.78 571.785 2247.78 573.572C2247.78 575.001 2248.76 576.7 2251.42 576.164C2272.71 569.014 2288.05 548.822 2288.05 524.967C2288.14 495.123 2264.1 471 2234.57 471Z" fill="black"/>
+                                                </g>
+                                                
+                                                <foreignObject
+                                                    x="1788"
+                                                    y="150"
+                                                    width="650"
+                                                    height="290" 
+                                                    [class.hidden]="!project.website"
+                                                    class="cursor-pointer"
+                                                    (click)="goToLink(project.website!)"
+                                                    >
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        class="text-white text-[8vh] lg:text-[4vw] leading-tight h-max">
+                                                        Project Link
+                                                    </div>
+                                                </foreignObject>
+
+                                                <foreignObject
+                                                    x="95"
+                                                    y="132"
+                                                    width="1500"
+                                                    height="252" 
+                                                    >
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        class="text-white  text-[8vh] lg:text-[min(4vw, 90px] leading-tight h-max 
+                                                                line-clamp-2
+                                                                ">
+                                                        {{ project.longDesc }}
+                                                    </div>
+                                                </foreignObject>
+
+                                                <foreignObject
+                                                    x="95"
+                                                    y="424"
+                                                    width="1500"
+                                                    height="252" 
+                                                    >
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        class="text-white text-[8vh] lg:text-[min(4vw, 90px] h-max 
+                                                                line-clamp-2">
+                                                        {{ project.tech }}
+                                                    </div>
+                                                </foreignObject>                                            
+                                            </g>
+
+                                            <g class="group-hover:opacity-0 transition-all duration-1000 pointer-events-none" [class.opacity-0]="expandedIndex === i">
+                                                <foreignObject
+                                                    x="926"
+                                                    y="375"
+                                                    width="1334"
+                                                    height="292" >
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        class="text-white text-[8vh] lg:text-[min(4vw, 90px)] h-max 
+                                                                line-clamp-2">            
+                                                        {{ project.shortDesc }}
+                                                    </div>
+                                                </foreignObject>
+
+                                                <foreignObject
+                                                    x="250"
+                                                    y="200"
+                                                    width="391"
+                                                    height="391"
+                                                    >
+                                                    <div class="w-full h-full flex items-center justify-center" xmlns="http://www.w3.org/1999/xhtml">
+                                                        <img class="w-full h-full" [src]="project.logo" alt="" />
+                                                    </div>
+                                                </foreignObject>
+
+                                                <foreignObject
+                                                    x="926"
+                                                    y="168"
+                                                    width="1334"
+                                                    height="184" >
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        class="w-full h-full">
+                                                        <div class="w-full h-full flex items-center justify-start">
+                                                        <span
+                                                            class="font-orbitron text-white"
+                                                            style="font-size: 10vh; line-height: 1; white-space: nowrap;"
+                                                        >
+                                                            {{ project.title }}
+                                                        </span>
+                                                        </div>
+                                                    </div>
+                                                </foreignObject>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            }
+                        </div>
+                    </foreignObject>
+                }
+            
+            </g>
+        </g>
+
+        <defs>
+            <clipPath id="bgblur_0_2138_72_clip_path" transform="translate(100 100)"><rect width="2913" height="2518"/>
+            </clipPath><clipPath id="bgblur_1_2138_72_clip_path" transform="translate(-145 -225)"><rect x="185" y="265" width="2586" height="2096" rx="45"/>
+            </clipPath><clipPath id="bgblur_2_2138_72_clip_path" transform="translate(-145 -847)"><rect x="185" y="887" width="2586" height="1474" rx="35"/>
+            </clipPath>
+        </defs>
+    </svg>
+
+    <!--
+    Yep,
+    Extra check for mac
+    Mac OS works different from iOS
+    -->
+    @if (isMac) {
+        <div id="MacProjects"class="fixed w-full flex items-center justify-center 
+            sm:top-2/5 lg:top-7/20
+            sm:h-[40vh] lg:h-[55vh] 
+            transition-all duration-1200 ease-in-out
+            pointer-events-none"
+
+            [class.none]="!showScreen"
+            [class.block]="showScreen"
+            [class.opacity-0]="!showScreen"
+            [class.h-0]="!showScreen"
+        >
+            <div
+                class="h-full w-full" [class.pointer-events-none]="!showScreen">
+
+                <div id="actContent" class="absolute inset-0 mb-10 lg:mt-10  mx-auto
+                        sm:w-[60vw] lg:w-[720px]
+                        transition-all duration-900 ease-in-out"
+                        [class.pointer-events-none]="!showScreen"
+                        [class.opacity-0]="!showContent">
+
+                    <div class="w-full h-full overflow-y-auto flex flex-col gap-6 p-8"
+                        [class.pointer-events-none]="!showScreen"
+                        [class.pointer-events-auto]="showScreen">
+                        @for (project of projects; track project.title; let i = $index) {
+                            <div class="w-full h-max group"
+                                (click)="toggleExpand(i)">
+                                <svg class="w-full h-max" x="185" y="900" width="2586" height="800" viewBox="0 0 2586 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="" id="StuffItem">
+
+                                        <g [class.hidden]="project.priority != 1">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#8D93D4]]="expandedIndex === i" id="RightBorder_2" d="M2531 55V755H1606.5L1503.5 704.5L2481 705V105H1255L1171 55H2531Z" fill="#38D7D0"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#7F9ED3]]="expandedIndex === i"id="LeftBorder_2" d="M23 46H884L939.5 96H73.0001V703H1186L1265 753H23V46Z" fill="#D45AD7"/>
+                                        </g>
+
+                                        <g [class.hidden]="project.priority != 2">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#A2A8CF]]="expandedIndex === i" id="RightBorder_2" d="M2523 62V748H1597.5L1516.5 712H2487V98H1248L1176 62H2523Z" fill="#4BBFB8"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#9AA7CC]]="expandedIndex === i"id="LeftBorder_2" d="M30 53H885L938.5 89H66V710H1184.5L1261.5 746H30V53Z" fill="#B47CC9"/>
+                                        </g>
+
+                                        <g [class.hidden]="project.priority != 3">
+                                            <path class="group-hover:fill-[#8D93D4] transition-all duration-1000" [class.fill-[#B7BCD1]]="expandedIndex === i" id="RightBorder_2" d="M2523 76V741H1589L1544 719H2501V98H1247L1191 76H2523Z" fill="#6CBDB9"/>
+                                            <path class="group-hover:fill-[#7F9ED3] transition-all duration-1000" [class.fill-[#B2B7C9]]="expandedIndex === i"id="LeftBorder_2" d="M37 60H885.5L936 82H59V717H1185L1257.5 739H37V60Z" fill="#A77BB1"/>
+                                        </g>
+
+
+                                        <g class="opacity-0 group-hover:opacity-100 transition-all duration-1000" [class.opacity-100]="expandedIndex === i">
+                                            <g class="group/git cursor-pointer" [class.hidden]="!project.github" (click)="goToLink(project.github!)">
+                                                <rect class="group-hover/git:fill-[black] transition-colors duration-700" id="GitHubLogoBack" x="2150" y="455" width="170" height="138" rx="25" fill="white"/>
+                                                <path class="group-hover/git:fill-[white] transition-colors duration-700" id="GitHubLogo" fill-rule="evenodd" clip-rule="evenodd" d="M2234.57 471C2204.95 471 2181 495.123 2181 524.967C2181 548.822 2196.34 569.016 2217.63 576.163C2220.29 576.7 2221.26 575.001 2221.26 573.573C2221.26 572.322 2221.18 568.033 2221.18 563.565C2206.28 566.782 2203.17 557.132 2203.17 557.132C2200.78 550.877 2197.23 549.27 2197.23 549.27C2192.35 545.964 2197.58 545.964 2197.58 545.964C2202.99 546.321 2205.83 551.503 2205.83 551.503C2210.62 559.723 2218.34 557.4 2221.44 555.97C2221.89 552.486 2223.31 550.073 2224.81 548.733C2212.93 547.482 2200.42 542.836 2200.42 522.107C2200.42 516.21 2202.55 511.385 2205.92 507.633C2205.39 506.293 2203.53 500.753 2206.45 493.337C2206.45 493.337 2210.98 491.907 2221.18 498.876C2225.54 497.695 2230.05 497.094 2234.57 497.089C2239.09 497.089 2243.7 497.715 2247.96 498.876C2258.16 491.907 2262.68 493.337 2262.68 493.337C2265.61 500.753 2263.75 506.293 2263.21 507.633C2266.67 511.385 2268.71 516.21 2268.71 522.107C2268.71 542.836 2256.21 547.392 2244.24 548.733C2246.19 550.431 2247.87 553.647 2247.87 558.74C2247.87 565.977 2247.78 571.785 2247.78 573.572C2247.78 575.001 2248.76 576.7 2251.42 576.164C2272.71 569.014 2288.05 548.822 2288.05 524.967C2288.14 495.123 2264.1 471 2234.57 471Z" fill="black"/>
+                                            </g>
+                                            
+                                            <foreignObject
+                                                x="1788"
+                                                y="150"
+                                                width="650"
+                                                height="290" 
+                                                [class.hidden]="!project.website"
+                                                class="cursor-pointer"
+                                                (click)="goToLink(project.website!)"
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[4vw] leading-tight h-max">
+                                                    Project Link
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="95"
+                                                y="132"
+                                                width="1500"
+                                                height="252" 
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white  text-[8vh] lg:text-[min(4vw, 90px] leading-tight h-max 
+                                                            line-clamp-2
+                                                            ">
+                                                    {{ project.longDesc }}
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="95"
+                                                y="424"
+                                                width="1500"
+                                                height="252" 
+                                                >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[min(4vw, 90px] h-max 
+                                                            line-clamp-2">
+                                                    {{ project.tech }}
+                                                </div>
+                                            </foreignObject>                                            
+                                        </g>
+
+                                        <g class="group-hover:opacity-0 transition-all duration-1000 pointer-events-none" [class.opacity-0]="expandedIndex === i">
+                                            <foreignObject
+                                                x="926"
+                                                y="375"
+                                                width="1334"
+                                                height="292" >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="text-white text-[8vh] lg:text-[min(4vw, 90px)] h-max 
+                                                            line-clamp-2">            
+                                                    {{ project.shortDesc }}
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="250"
+                                                y="200"
+                                                width="391"
+                                                height="391"
+                                                >
+                                                <div class="w-full h-full flex items-center justify-center" xmlns="http://www.w3.org/1999/xhtml">
+                                                    <img class="w-full h-full" [src]="project.logo" alt="" />
+                                                </div>
+                                            </foreignObject>
+
+                                            <foreignObject
+                                                x="926"
+                                                y="168"
+                                                width="1334"
+                                                height="184" >
+                                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                                    class="w-full h-full">
+                                                    <div class="w-full h-full flex items-center justify-start">
+                                                    <span
+                                                        class="font-orbitron text-white"
+                                                        style="font-size: 10vh; line-height: 1; white-space: nowrap;"
+                                                    >
+                                                        {{ project.title }}
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </foreignObject>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        }
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    }
+                    
+</div>
+
+}

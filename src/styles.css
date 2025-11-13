@@ -1,0 +1,248 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {  
+    /* Custom Font */
+    --font-inter: "Inter", sans-serif;
+
+    --font-orbitron: "Orbitron", sans-serif;
+
+
+    /* Animation for flickering red light dots */
+    --animate-flicker-a : flicker-a 4s ease-in-out infinite;
+    @keyframes flicker-a {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+    --animate-flicker-b : flicker-b 3s ease-in-out infinite;
+    @keyframes flicker-b {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+    --animate-flicker-c : flicker-c 4s ease-in-out infinite;
+    @keyframes flicker-c {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    
+
+    /*Animation for background Gradient */
+    --animate-move-a : move-a 15s ease-in-out infinite;
+    @keyframes move-a {
+        0%, 100% {
+            transform: translate(-10px, 0px); 
+        }
+        20%, 80% {
+            transform: translate(100px, 0px);
+        }
+        40% {
+            transform: translate(100px, 450px)
+        }
+        60% {
+            transform: translate(-10px, 450px);
+        }
+    }
+
+    --animate-move-b : move-b 15s ease-in-out infinite;
+    @keyframes move-b {
+        0%, 100% {
+            transform: translate(0px, 0px); 
+        }
+        20%, 50%, 80% {
+            transform: translate(-70px, -200px);
+        }
+        10%, 30% {
+            transform: translate(-100px, 0px);
+        }
+        40%, 60% {
+            transform: translate(-100px, -450px);
+        }
+        70%, 90% {
+            transform: translate(-0px, -450px);
+        }
+    }
+
+    --animate-move-c : move-c 15s ease-in-out infinite;
+    @keyframes move-c {
+        0%, 50%, 100% {
+            transform: translate(0px, 0px); 
+        }
+        15% {
+            transform: translate(0px, -450px);
+        }
+        30%, 70% {
+            transform: translate(120px, -450px);
+        }
+        85% {
+            transform: translate(120px, 0px);
+        }
+    }
+
+    --animate-move-d : move-d 15s ease-in-out infinite;
+    @keyframes move-d {
+        0%, 100% {
+            transform: translate(0px, 0px); 
+        }
+        20% {
+            transform: translate(50px, 200px);
+        }
+        40% {
+            transform: translate(50px, -200px);
+        }
+        60% {
+            transform: translate(-50px, 200px);
+        }
+        80% {
+            transform: translate(-50px, -200px);
+        }
+    }
+
+    --animate-move-shine-line : mode-shine-line 10s ease-in infinite;
+    @keyframes mode-shine-line {
+        0%, 92% {
+            transform: translate(0px, 0px); 
+        }
+        100% {
+            transform: translate(750px, 0px);
+        }
+    }
+
+
+    --animate-move-sun-out : move-sun-out 2s ease-in;
+    @keyframes move-sun-out {
+        0% {
+            transform: translate(0px, 0px); 
+        }
+        100% {
+            transform: translate(1000px, 1000px); 
+        }
+    }
+    
+    --animate-move-sun-in : move-sun-in 2s ease-out;
+    @keyframes move-sun-in {
+        0% {
+            transform: translate(1000px, 1000px); 
+        }
+        100% {
+            transform: translate(0px, 0px); 
+        }
+    }
+
+    --animate-move-moon-out : move-moon-out 2s ease-in;
+    @keyframes move-moon-out {
+        0% {
+            transform: translate(0px, 0px); 
+        }
+        100% {
+            transform: translate(-1000px, -1000px); 
+        }
+    }
+
+    --animate-move-moon-in : move-moon-in 2s ease-out;
+    @keyframes move-moon-in {
+        0% {
+            transform: translate(-1000px, -1000px); 
+        }
+        100% {
+            transform: translate(0px, 0px); 
+        }
+    }
+
+
+    --color-background-building-left-norm: #6F8096;
+    --color-background-building-left-dark: #1D2D42;
+    --color-background-building-right-norm: #8892A8;
+    --color-background-building-right-dark: #1D2D42;
+
+
+
+    --color-bal-bott-railing-top-norm: #A7A29E;
+    --color-bal-bott-railing-top-dark: #1B2133;
+
+    --color-bal-bott-railing-shad-norm: #1E1B1B;
+    --color-bal-bott-railing-shad-dark: #151926;
+
+    --color-bal-bott-railing-pill-base-norm: #252528;
+    --color-bal-bott-railing-pill-shad-norm: #2D2725;
+    --color-bal-bott-railing-pill-pill-norm: #33353A;
+    
+    --color-bal-bott-railing-pill-base-dark: #191B25;
+    --color-bal-bott-railing-pill-shad-dark: #0B0C13;
+    --color-bal-bott-railing-pill-pill-dark: #11131D;
+
+    --color-bal-bott-floor-norm: #413732;
+    --color-bal-bott-floor-dark: #0B0F14;
+
+    --color-bal-bott-prop-out-norm: #241F1F;
+    --color-bal-bott-prop-out-dark: #0A0D16;
+
+    
+
+    --color-bal-top-base-norm: #5D5455;
+    --color-bal-top-base-dark: #131823;
+
+    --color-bal-top-pill-act-norm: #2A2B30;
+    --color-bal-top-pill-act-dark: #0A0910;
+
+    --color-bal-top-pill-shad-norm: #333138;
+    --color-bal-top-pill-shad-dark: #0B0E15;
+
+
+
+    --color-cov-right-all-norm: #404A5A;
+    --color-cov-right-all-dark: #1A2332;
+
+
+
+    --color-left-left-back-norm: #5B738A;
+    --color-left-left-back-dark: #21314B;
+
+    --color-left-right-back-norm: #637A98;
+    --color-left-right-back-dark: #1E2E44;
+
+    --color-left-right-window-border-norm: #6A6D7B;
+    --color-left-right-window-border-dark: #1C2A3F;
+
+    --color-left-right-glass-norm: #575757;
+    --color-left-right-glass-pane-norm: #474747;
+    --color-left-right-glass-streak-norm: #D9D9D9;
+
+    --color-left-right-glass-dark: #172435;
+    --color-left-right-glass-pane-dark: #131D2A;
+    --color-left-right-glass-streak-dark: #D9D9D9;
+
+
+
+    --color-right-left-back-norm: #586378;
+    --color-right-left-back-dark: #1E2E44;
+
+    --color-right-window-border-norm: #6A6D7B;
+    --color-right-window-border-dark: #1C2A3F;
+
+    --color-right-clock-font-norm: #F4D0A9;
+    --color-right-clock-font-dark: #8DEDF2;
+
+    --color-right-bout-me-back-norm: #FCEBD5;
+    --color-right-bout-me-back-dark: #8DEDF2;
+
+    --color-right-right-back-norm: #4D6177;
+    --color-right-right-back-dark: #1D2C41;
+}
+
